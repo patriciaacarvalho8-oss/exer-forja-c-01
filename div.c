@@ -7,15 +7,15 @@
 //declara a funcao principal, onde o programa começa sua execucao 
 int main(){
     
-    float num1, num2, respSoma;
+    float num1, num2, respDiv;
 
     printf("Digite o primeiro numero: ");
     scanf("%f", &num1);
     printf("Digite o segundo numero: ");
     scanf("%f", &num2);
 
-    respSoma = num1 + num2;
-    printf("%2f" ,respSoma);
+    respDiv = num1 / num2;
+    printf("%2f" ,respDiv);
 
 
     //pausar o sistema ate que o usuario pressione qualquer tecla 
